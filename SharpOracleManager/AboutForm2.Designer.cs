@@ -35,7 +35,6 @@ namespace SharpOracleManager
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -58,7 +57,7 @@ namespace SharpOracleManager
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(178, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Version 1.4 2022-05-31";
+            this.label2.Text = "Version 1.5 2022-08-01";
             // 
             // label3
             // 
@@ -97,15 +96,6 @@ namespace SharpOracleManager
             this.label5.TabIndex = 5;
             this.label5.Text = "BUT DON\'T USE THIS ILLEGALLY.";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 9);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(67, 15);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "TEST ONLY";
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(104, 180);
@@ -130,7 +120,6 @@ namespace SharpOracleManager
             this.ClientSize = new System.Drawing.Size(525, 255);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
@@ -157,7 +146,6 @@ namespace SharpOracleManager
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
     }

@@ -124,7 +124,7 @@ namespace SharpOracleManager
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(93, 20);
             this.label6.TabIndex = 12;
-            this.label6.Text = "2022-05-31";
+            this.label6.Text = "2022-08-01";
             // 
             // label4
             // 
